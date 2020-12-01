@@ -17,4 +17,11 @@
       <module name="springcloud-eureka-servicesupport" target="1.7" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-eureka-server" options="" />
+      <module name="springcloud-eureka-serviceconsume" options="" />
+      <module name="springcloud-eureka-servicesupport" options="" />
+    </option>
+  </component>
 </project>

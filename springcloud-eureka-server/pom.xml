@@ -25,6 +25,7 @@
     <version>1.5.7.RELEASE</version>
   </parent>
 
+
   <dependencies>
     <!--引入springcloud的euekea server依赖-->
     <dependency>
