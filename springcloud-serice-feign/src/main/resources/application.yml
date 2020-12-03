@@ -7,3 +7,6 @@ eureka:
 spring:
   application:
     name: springcloudfeign
+feign:
+  hystrix:
+    enabled: true
