@@ -10,7 +10,6 @@ eureka:
     fetch-registry: false  #启动时禁用client的注册
 #  instance:
 #    hostname: localhost
-
 #指定应用名称
 spring:
   application:

@@ -1,7 +1,6 @@
 package com.qv.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,11 +8,8 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/Hello")
-class ConsumerController {
-    @Autowired
-    private LoadBalancerClient loadBalancerClient;
-    @Autowired
-    private RestTemplate restTemplate;
+class Consumer {
+
     @RequestMapping("/Consumer")
     public String helloWorld(String s){
         System.out.println("传入的值为："+s);
