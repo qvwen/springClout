@@ -1,0 +1,10 @@
+server:
+  port: 8684
+spring:
+  application:
+    name: study-ms
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8699/eureka
+

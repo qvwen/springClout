@@ -25,7 +25,7 @@ class Consumer {
         //String forObject = new RestTemplate().getForObject("http://"+serviceInstance.getHost()+":"+serviceInstance.getPort()+"/Hello/World?s="+s,String.class);
 
         //第三种调用方式 需要restTemplate注入的方式
-        String forObject = restTemplate.getForObject("http://EUREKA-SERVICE/Hello/World?s=" + s, String.class);
+        String forObject = restTemplate.getForObject("http://STUDY-MS/Hello/World?s=" + s, String.class);
         return forObject;
     }
 }

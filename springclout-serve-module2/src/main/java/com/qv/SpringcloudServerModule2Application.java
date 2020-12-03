@@ -1,4 +1,4 @@
-package com.qv.springcloudservermodule2;
+package com.qv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

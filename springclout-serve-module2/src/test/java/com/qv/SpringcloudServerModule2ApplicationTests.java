@@ -1,4 +1,4 @@
-package com.qv.springcloudservermodule2;
+package com.qv;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
