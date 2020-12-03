@@ -9,12 +9,14 @@
         <module name="springcloud-eureka-serviceconsume" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka-servicesupport" />
+        <module name="springclout-serve-module1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-eureka-server" target="1.7" />
       <module name="springcloud-eureka-serviceconsume" target="1.7" />
       <module name="springcloud-eureka-servicesupport" target="1.7" />
+      <module name="springclout-serve-module1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

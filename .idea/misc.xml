@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/springcloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-servicesupport/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-serviceconsume/pom.xml" />
+        <option value="$PROJECT_DIR$/springclout-serve-module1/pom.xml" />
+        <option value="$PROJECT_DIR$/springclout-serve-module2/pom.xml" />
       </list>
     </option>
   </component>
