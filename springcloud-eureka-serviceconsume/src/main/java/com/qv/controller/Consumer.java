@@ -6,12 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
+
 @RestController
 @RequestMapping("/Hello")
 class Consumer {
-    @Autowired
+    @Resource
     private LoadBalancerClient loadBalancerClient;
-    @Autowired
+    @Resource
     private RestTemplate restTemplate;
     @RequestMapping("/Consumer")
     public String helloWorld(String s){

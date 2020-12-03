@@ -1,0 +1,9 @@
+server:
+  port: 8691
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8699/eureka
+spring:
+  application:
+    name: springcloudfeign
