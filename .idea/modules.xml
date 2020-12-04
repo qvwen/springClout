@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" filepath="$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-servicesupport/springcloud-eureka-feign.iml" filepath="$PROJECT_DIR$/springcloud-eureka-servicesupport/springcloud-eureka-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-serviceconsume/springcloud-eureka-serviceconsume.iml" filepath="$PROJECT_DIR$/springcloud-eureka-serviceconsume/springcloud-eureka-serviceconsume.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-servicesupport/springcloud-eureka-servicesupport.iml" filepath="$PROJECT_DIR$/springcloud-eureka-servicesupport/springcloud-eureka-servicesupport.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-serice-feign/springcloud-serice-feign.iml" filepath="$PROJECT_DIR$/springcloud-serice-feign/springcloud-serice-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-zuul/springcloud-service-zuul.iml" filepath="$PROJECT_DIR$/springcloud-service-zuul/springcloud-service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclout-config-client/springclout-config-client.iml" filepath="$PROJECT_DIR$/springclout-config-client/springclout-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springclout-serve-module1/springclout-serve-module1.iml" filepath="$PROJECT_DIR$/springclout-serve-module1/springclout-serve-module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springclout-serve-module2/springclout-serve-module2.iml" filepath="$PROJECT_DIR$/springclout-serve-module2/springclout-serve-module2.iml" />
     </modules>

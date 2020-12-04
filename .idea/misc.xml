@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/springclout-serve-module1/pom.xml" />
         <option value="$PROJECT_DIR$/springclout-serve-module2/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-serice-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springclout-config-client/pom.xml" />
       </list>
     </option>
   </component>

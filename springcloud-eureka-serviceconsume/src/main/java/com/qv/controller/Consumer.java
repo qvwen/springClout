@@ -1,5 +1,6 @@
 package com.qv.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,8 @@ class Consumer {
     private LoadBalancerClient loadBalancerClient;
     @Resource
     private RestTemplate restTemplate;
+
+    @HystrixCommand(fallbackMethod = "hiError")
     @RequestMapping("/Consumer")
     public String helloWorld(String s){
         System.out.println("传入的值为："+s);
@@ -29,5 +32,8 @@ class Consumer {
         //第三种调用方式 需要restTemplate注入的方式
         String forObject = restTemplate.getForObject("http://STUDY-MS/Hello/World?s=" + s, String.class);
         return forObject;
+    }
+    public String hiError(String name) {
+        return "hi,"+name+",sorry,error!";
     }
 }

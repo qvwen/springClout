@@ -6,29 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springclout-config-client" />
         <module name="springcloud-eureka-serviceconsume" />
         <module name="springcloud-eureka-server" />
         <module name="springclout-serve-module2" />
         <module name="springclout-serve-module1" />
         <module name="springcloud-eureka-servicesupport" />
+        <module name="springcloud-service-zuul" />
         <module name="springcloud-serice-feign" />
+        <module name="springcloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springcloud-config-server" target="1.8" />
       <module name="springcloud-eureka-server" target="1.7" />
       <module name="springcloud-eureka-serviceconsume" target="1.7" />
       <module name="springcloud-eureka-servicesupport" target="1.7" />
       <module name="springcloud-serice-feign" target="1.8" />
+      <module name="springcloud-service-zuul" target="1.8" />
+      <module name="springclout-config-client" target="1.8" />
       <module name="springclout-serve-module1" target="1.8" />
       <module name="springclout-serve-module2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-config-server" options="-parameters" />
       <module name="springcloud-eureka-server" options="" />
       <module name="springcloud-eureka-serviceconsume" options="" />
       <module name="springcloud-eureka-servicesupport" options="" />
       <module name="springcloud-serice-feign" options="-parameters" />
+      <module name="springcloud-service-zuul" options="-parameters" />
+      <module name="springclout-config-client" options="-parameters" />
       <module name="springclout-serve-module1" options="-parameters" />
       <module name="springclout-serve-module2" options="-parameters" />
     </option>
